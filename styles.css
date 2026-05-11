@@ -94,6 +94,27 @@ footer {
     border-top: 2px solid #1e293b;
     color: #64748b;
 }
+
+footer p {
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-links a,
+.footer-links span {
+    color: #94a3b8;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #38bdf8;
+}
 .blob {
     center;
     width: 80%;
